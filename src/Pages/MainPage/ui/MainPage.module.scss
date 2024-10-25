@@ -1,0 +1,26 @@
+.main {
+  padding: 30px 0 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  gap: 20px;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-rows: min-content;
+}
+
+.select {
+  grid-column: 2 / -1;
+}

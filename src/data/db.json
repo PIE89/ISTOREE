@@ -1,0 +1,426 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imgName": "appleWatch",
+      "title": "Часы Apple Watch Белый",
+      "price": 18000,
+      "cat": "watch",
+      "color": "white",
+      "desc": "Стильные и современные часы Apple Watch в белом цвете."
+    },
+    {
+      "id": 2,
+      "imgName": "imac",
+      "title": "iMac",
+      "price": 140000,
+      "cat": "comp",
+      "memory": "2 Tb",
+      "color": "white",
+      "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете."
+    },
+    {
+      "id": 3,
+      "imgName": "ipad",
+      "title": "iPad",
+      "price": 60000,
+      "cat": "tablet",
+      "memory": "64 Gb",
+      "color": "gray",
+      "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете."
+    },
+    {
+      "id": 4,
+      "imgName": "iphone",
+      "title": "iPhone",
+      "price": 50000,
+      "cat": "phone",
+      "memory": "128 Gb",
+      "color": "black",
+      "desc": "Современный смартфон iPhone с памятью 128 Гб в черном цвете."
+    },
+    {
+      "id": 5,
+      "imgName": "macmini",
+      "title": "MacMini",
+      "price": 72000,
+      "cat": "comp",
+      "memory": "1 Tb",
+      "color": "spacegray",
+      "desc": "Компактный компьютер MacMini с памятью 1 Тб в цвете 'серый космос'."
+    },
+    {
+      "id": 6,
+      "imgName": "macpro",
+      "title": "MacPro",
+      "price": 120000,
+      "cat": "comp",
+      "memory": "1 Tb",
+      "color": "black",
+      "desc": "Мощный профессиональный компьютер MacPro с памятью 1 Тб в черном цвете."
+    },
+    {
+      "id": 7,
+      "imgName": "macpro2022",
+      "title": "MacPro 2022",
+      "price": 180000,
+      "cat": "comp",
+      "memory": "2 Tb",
+      "color": "gray",
+      "desc": "Современный профессиональный компьютер MacPro 2022 с памятью 2 Тб в сером цвете."
+    },
+    {
+      "id": 8,
+      "imgName": "macbook",
+      "title": "Apple MacBook Air 13",
+      "price": 110000,
+      "cat": "note",
+      "memory": "512 Gb",
+      "color": "gray",
+      "desc": "Ультратонкий ноутбук Apple MacBook Air 13 с памятью 512 Гб в сером цвете."
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "slug": "all",
+      "title": "Все"
+    },
+    {
+      "id": 2,
+      "slug": "watch",
+      "title": "Часы"
+    },
+    {
+      "id": 3,
+      "slug": "comp",
+      "title": "Компьютеры"
+    },
+    {
+      "id": 4,
+      "slug": "tablet",
+      "title": "Планшеты"
+    },
+    {
+      "id": 5,
+      "slug": "phone",
+      "title": "Смартфоны"
+    },
+    {
+      "id": 6,
+      "slug": "note",
+      "title": "Ноутбуки"
+    }
+  ],
+  "filterValues": {
+    "price": {
+      "min": 0,
+      "max": 200000
+    },
+    "memory": [
+      "0 Tb",
+      "64 Gb",
+      "128 Gb",
+      "512 Gb",
+      "1 Tb",
+      "2 Tb"
+    ],
+    "colors": [
+      "white",
+      "gray",
+      "spacegray",
+      "black"
+    ]
+  },
+  "orders": [
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 1
+        },
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 1
+        },
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 1
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": "Ivan Popov",
+      "email": "ivan.popov@mail.ru",
+      "information": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 2
+        },
+        {
+          "id": 6,
+          "imgName": "macpro",
+          "title": "MacPro",
+          "price": 120000,
+          "cat": "comp",
+          "memory": "1 Tb",
+          "color": "black",
+          "desc": "Мощный профессиональный компьютер MacPro с памятью 1 Тб в черном цвете.",
+          "count": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "name": "Ivan",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 3,
+          "imgName": "ipad",
+          "title": "iPad",
+          "price": 60000,
+          "cat": "tablet",
+          "memory": "64 Gb",
+          "color": "gray",
+          "desc": "Удобный планшет iPad с памятью 64 Гб в сером цвете.",
+          "count": 4
+        },
+        {
+          "id": 7,
+          "imgName": "macpro2022",
+          "title": "MacPro 2022",
+          "price": 180000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "gray",
+          "desc": "Современный профессиональный компьютер MacPro 2022 с памятью 2 Тб в сером цвете.",
+          "count": 3
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "IvanPopov",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 2
+        },
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 3
+        }
+      ],
+      "id": 9
+    },
+    {
+      "name": "Alina Popova",
+      "email": "alina@mail.ru",
+      "information": [
+        {
+          "id": 2,
+          "imgName": "imac",
+          "title": "iMac",
+          "price": 140000,
+          "cat": "comp",
+          "memory": "2 Tb",
+          "color": "white",
+          "desc": "Мощный настольный компьютер iMac с памятью 2 Тб в белом цвете.",
+          "count": 2
+        }
+      ],
+      "id": 10
+    },
+    {
+      "name": "Алина Попова",
+      "email": "lin_a@inbox.ru",
+      "information": [
+        {
+          "id": 8,
+          "imgName": "macbook",
+          "title": "Apple MacBook Air 13",
+          "price": 110000,
+          "cat": "note",
+          "memory": "512 Gb",
+          "color": "gray",
+          "desc": "Ультратонкий ноутбук Apple MacBook Air 13 с памятью 512 Гб в сером цвете.",
+          "count": 2
+        }
+      ],
+      "totalCount": 2,
+      "totalAmount": 220000,
+      "id": 11
+    },
+    {
+      "name": "Alina Popovich",
+      "email": "lin_a@inbox.ru",
+      "information": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 1
+        }
+      ],
+      "totalCount": 1,
+      "totalAmount": 18000,
+      "id": 12
+    },
+    {
+      "name": "ПОПОВА АЛИНА",
+      "email": "i@mail.ru",
+      "information": [
+        {
+          "id": 1,
+          "imgName": "appleWatch",
+          "title": "Часы Apple Watch Белый",
+          "price": 18000,
+          "cat": "watch",
+          "color": "white",
+          "desc": "Стильные и современные часы Apple Watch в белом цвете.",
+          "count": 1
+        }
+      ],
+      "totalCount": 1,
+      "totalAmount": 18000,
+      "id": 13
+    }
+  ]
+}

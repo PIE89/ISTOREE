@@ -1,0 +1,39 @@
+.radio {
+}
+
+.radio__real {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  z-index: -1;
+
+  &:checked + .radio__custom::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+.radio__custom {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  border: 1px solid #000;
+
+  &::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+
+    width: 22px;
+    height: 22px;
+    border: 1px solid blue;
+    border-radius: 50%;
+  }
+}

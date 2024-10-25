@@ -1,0 +1,19 @@
+.card > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.img {
+  width: 250px;
+  height: 220px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+}
+
+.price {
+  font-weight: 300;
+  color: #000000;
+}

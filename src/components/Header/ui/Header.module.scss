@@ -1,0 +1,33 @@
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
+
+.btn {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  transition: color 0.2s ease-in;
+
+  &:hover {
+    color: grey;
+  }
+}

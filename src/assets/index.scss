@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+@import url("./reset.scss");
+@import url("./rangeSlider.scss");
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--primary-color);
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+p {
+  color: var(--primary-color);
+}
+
+.container {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.containerSmall {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+
+.icon {
+  color: var(--icon-color);
+}
+
+// Error
+.error {
+  text-align: center;
+  color: var(--primary-color);
+  font: var(--font-l);
+}
